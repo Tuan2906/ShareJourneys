@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "ShareJourneysApp",
+    "slug": "ShareJourneysApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c42e080a-a85f-4e8d-8e2f-ae7193c02611"
+      }
+    },
+    "owner": "tuan2906"
+  },
+  "name": "ShareJourneysApp"
+}
