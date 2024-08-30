@@ -1,4 +1,3 @@
-Dưới đây là phiên bản tài liệu của bạn đã được cập nhật để loại bỏ các đường dẫn `/api`:
 
 ---
 
