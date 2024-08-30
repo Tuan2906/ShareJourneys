@@ -20,7 +20,7 @@
 - **Backend:** Django
 - **Authentication:** Django Rest Framework Oauth2
 - **Notifications:** Django and Expo Push Notifications
-- **Database:** MySQL, Firebase
+- **Database:** MySQL
 - **Real-time Chat:** Firebase Firestore
 
 ## Installation
