@@ -104,7 +104,7 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ## Contact
 
-For questions or feedback, contact us at: tuanchaunguyen13@.com
+For questions or feedback, contact us at: tuanchaunguyen13@gmail.com
 
 ## License
 
