@@ -1,8 +1,9 @@
 
+---
 
 # ShareJourneys
 
-**ShareJourneys** is a mobile application designed for users to share and manage their travel journeys. It features a React Native frontend and a Django backend, offering a seamless experience for journey management, user interactions, and notifications.
+**ShareJourneys** is a mobile application designed for users to share and manage their travel journeys. It features a React Native frontend and a Django backend, offering a seamless experience for journey management, user interactions, notifications, and real-time chat functionality using Firebase.
 
 ## Features
 
@@ -11,14 +12,16 @@
 - **Journey Management:** View details of journeys, including destinations, travel times, and activities.
 - **Notifications:** Receive notifications about journey updates and reminders.
 - **User Profiles:** Manage and view user profiles with journey history.
+- **Chat:** Real-time chat feature allowing users to communicate about their journeys using Firebase.
 
 ## Technologies Used
 
 - **Frontend:** React Native
 - **Backend:** Django
 - **Authentication:** Django Rest Framework Oauth2
-- **Notifications:** Django and React Native Push Notifications
-- **Database:** MySQL
+- **Notifications:** Django and Expo Push Notifications
+- **Database:** MySQL, Firebase
+- **Real-time Chat:** Firebase Realtime Database
 
 ## Installation
 
@@ -66,12 +69,21 @@
    yarn install
    ```
 
-3. **Start the React Native Development Server:**
+3. **Set Up Firebase:**
+   - Install Firebase dependencies:
+     ```bash
+     yarn add @react-native-firebase/app @react-native-firebase/database
+     ```
+   - Configure Firebase:
+     - Follow Firebase's setup guide to add Firebase to your React Native project.
+     - Add your Firebase configuration to `frontend/src/firebaseConfig.js`.
+
+4. **Start the React Native Development Server:**
    ```bash
    yarn start
    ```
 
-4. **Run the App:**
+5. **Run the App:**
    - For iOS:
      ```bash
      yarn ios
@@ -87,6 +99,7 @@
 2. **Create and Share Journeys:** Use the app to create new journeys and share them with others.
 3. **View and Manage Journeys:** Access your journey details and make updates as necessary.
 4. **Receive Notifications:** Get notifications about journey updates and reminders.
+5. **Chat with Users:** Use the chat feature to communicate with other users about journeys in real time.
 
 ## API Endpoints
 
@@ -97,6 +110,8 @@
 - **GET /api/journeys/{id}:** Retrieve details of a specific journey.
 - **PUT /api/journeys/{id}:** Update a specific journey.
 - **DELETE /api/journeys/{id}:** Delete a specific journey.
+- **GET /api/chats/{journey_id}:** Retrieve chat messages for a specific journey.
+- **POST /api/chats/{journey_id}:** Send a new message in a specific chat.
 
 ## Contributing
 
@@ -109,3 +124,6 @@ For questions or feedback, contact us at: tuanchaunguyen13@gmail.com
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+---
+
