@@ -1,3 +1,4 @@
+Dưới đây là phiên bản tài liệu của bạn đã được cập nhật để loại bỏ các đường dẫn `/api`:
 
 ---
 
@@ -72,7 +73,7 @@
 3. **Set Up Firebase:**
    - Install Firebase dependencies:
      ```bash
-     yarn add @react-native-firebase/app @react-native-firebase/database
+     yarn add @react-native-firebase/app @react-native-firebase/firestore
      ```
    - Configure Firebase:
      - Follow Firebase's setup guide to add Firebase to your React Native project.
@@ -103,15 +104,13 @@
 
 ## API Endpoints
 
-- **POST /api/register:** Register a new user.
-- **POST /api/login:** Log in to the application.
-- **GET /api/journeys:** Retrieve all journeys.
-- **POST /api/journeys:** Create a new journey.
-- **GET /api/journeys/{id}:** Retrieve details of a specific journey.
-- **PUT /api/journeys/{id}:** Update a specific journey.
-- **DELETE /api/journeys/{id}:** Delete a specific journey.
-- **GET /api/chats/{journey_id}:** Retrieve chat messages for a specific journey.
-- **POST /api/chats/{journey_id}:** Send a new message in a specific chat.
+- **POST /register:** Register a new user.
+- **POST /login:** Log in to the application.
+- **GET /journeys:** Retrieve all journeys.
+- **POST /journeys:** Create a new journey.
+- **GET /journeys/{id}:** Retrieve details of a specific journey.
+- **PUT /journeys/{id}:** Update a specific journey.
+- **DELETE /journeys/{id}:** Delete a specific journey.
 
 ## Contributing
 
@@ -126,4 +125,3 @@ For questions or feedback, contact us at: tuanchaunguyen13@gmail.com
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
