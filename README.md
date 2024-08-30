@@ -21,7 +21,7 @@
 - **Authentication:** Django Rest Framework Oauth2
 - **Notifications:** Django and Expo Push Notifications
 - **Database:** MySQL, Firebase
-- **Real-time Chat:** Firebase Realtime Database
+- **Real-time Chat:** Firebase Firestore
 
 ## Installation
 
