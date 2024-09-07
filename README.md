@@ -10,7 +10,7 @@
 - **Journey Sharing:** Users can create, view, and share travel journeys.
 - **User Authentication:** Secure login and registration with Django authentication and React Native forms.
 - **Journey Management:** View details of journeys, including destinations, travel times, and activities.
-- **Notifications:** Receive notifications about journey updates and reminders.
+- **Notifications:**Receive notifications when someone registers to join the ride-sharing.
 - **User Profiles:** Manage and view user profiles with journey history.
 - **Chat:** Real-time chat feature allowing users to communicate about their journeys using Firebase.
 
