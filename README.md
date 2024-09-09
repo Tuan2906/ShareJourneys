@@ -29,7 +29,7 @@
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/ShareJourneys.git
+   git clone https://github.com/Tuan2906/ShareJourneys.git
    cd ShareJourneys/backend
    ```
 
