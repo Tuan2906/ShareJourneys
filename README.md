@@ -30,7 +30,7 @@
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/Tuan2906/ShareJourneys.git
-   cd ShareJourneysProject/backend
+   cd ShareJourneys/ShareJourneysProject
    ```
 
 2. **Set Up a Virtual Environment:**
